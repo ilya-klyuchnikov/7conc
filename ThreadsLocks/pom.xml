@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <name>Maven parent POM</name>
+  <groupId>com.paulbutcher</groupId>
+  <artifactId>parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>threads-locks-counting</module>
+    <module>threads-locks-counting-better</module>
+    <module>threads-locks-counting-fixed</module>
+    <module>threads-locks-dining-philosophers</module>
+    <module>threads-locks-dining-philosophers-condition</module>
+    <module>threads-locks-dining-philosophers-fixed</module>
+    <module>threads-locks-dining-philosophers-timeout</module>
+    <module>threads-locks-echo-server</module>
+    <module>threads-locks-echo-server-better</module>
+    <module>threads-locks-hello-world</module>
+    <module>threads-locks-http-download</module>
+    <module>threads-locks-http-download-better</module>
+    <module>threads-locks-http-download-fixed</module>
+    <module>threads-locks-interruptible</module>
+    <module>threads-locks-linked-list</module>
+    <module>threads-locks-puzzle</module>
+    <module>threads-locks-uninterruptible</module>
+    <module>threads-locks-word-count</module>
+    <module>threads-locks-word-count-batch-concurrent-hash-map</module>
+    <module>threads-locks-word-count-concurrent-hash-map</module>
+    <module>threads-locks-word-count-producer-consumer</module>
+    <module>threads-locks-word-count-synchronized-hash-map</module>
+  </modules>
+
+</project>
