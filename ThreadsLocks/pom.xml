@@ -9,23 +9,26 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>threads-locks-counting</module>
-    <module>threads-locks-counting-better</module>
-    <module>threads-locks-counting-fixed</module>
-    <module>threads-locks-dining-philosophers</module>
-    <module>threads-locks-dining-philosophers-condition</module>
-    <module>threads-locks-dining-philosophers-fixed</module>
-    <module>threads-locks-dining-philosophers-timeout</module>
+    <!-- day one -->
+    <module>01-hello-world</module>
+    <module>02-counting</module>
+    <module>03-counting-fixed</module>
+    <module>04-puzzle</module>
+    <module>05-dining-philosophers</module>
+    <module>06-dining-philosophers-fixed</module>
+    <module>07-http-download</module>
+    <module>08-http-download-fixed</module>
+    <!-- day two -->
+    <module>09-uninterruptible</module>
+    <module>10-interruptible</module>
+    <module>11-dining-philosophers-timeout</module>
+    <module>12-linked-list</module>
+    <module>13-dining-philosophers-condition</module>
+    <module>14-counting-better</module>
+    <!-- day three -->
     <module>threads-locks-echo-server</module>
     <module>threads-locks-echo-server-better</module>
-    <module>threads-locks-hello-world</module>
-    <module>threads-locks-http-download</module>
     <module>threads-locks-http-download-better</module>
-    <module>threads-locks-http-download-fixed</module>
-    <module>threads-locks-interruptible</module>
-    <module>threads-locks-linked-list</module>
-    <module>threads-locks-puzzle</module>
-    <module>threads-locks-uninterruptible</module>
     <module>threads-locks-word-count</module>
     <module>threads-locks-word-count-batch-concurrent-hash-map</module>
     <module>threads-locks-word-count-concurrent-hash-map</module>
